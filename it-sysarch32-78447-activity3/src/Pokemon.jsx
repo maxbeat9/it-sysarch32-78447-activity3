@@ -1,9 +1,13 @@
 
-function Pokemon(){
-    return(
-        <div>
-            
-        </div>
-    )
+import Pokedex from './Pokedex';
+import React from 'react';
+
+function Pokemon() {
+  return (
+    <div>
+      <Pokedex />
+    </div>
+  );
 }
-export default Pokemon
+
+export default Pokemon;
