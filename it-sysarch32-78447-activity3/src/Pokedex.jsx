@@ -28,7 +28,7 @@ function Pokedex() {
           <h2 className="id">{pokemon.id}</h2>
           <h2 className="name">{pokemon.name[language]}</h2>
           {pokemon.type.length === 1 ? (
-            <h2 className="type">Type: {pokemon.type[0]}</h2>
+            <h2 className="type">{pokemon.type[0]}</h2>
           ) : (
             <>
               <h2 className="type">{pokemon.type[0]}</h2>
